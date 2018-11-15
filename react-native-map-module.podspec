@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "react-native-map-module"
-  s.version      = "1.0.1_mapModule"
+  s.version      = "1.0.2"
   s.summary      = "A short description of react-native-map-module."
 
   s.homepage     = "https://github.com/zhoujianbang/mapModule.git"
