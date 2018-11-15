@@ -1,0 +1,22 @@
+{
+  "name": "react-native-map-module",
+  "version": "1.0.0",
+  "description": "RN封装的百度地图组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoujianbang/mapModule.git"
+  },
+  "keywords": [
+    "bmk"
+  ],
+  "author": "zhoujianbang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhoujianbang/mapModule/issues"
+  },
+  "homepage": "https://github.com/zhoujianbang/mapModule#readme"
+}
