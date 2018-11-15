@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = "A short description of react-native-map-module."
 
   s.homepage     = "https://github.com/zhoujianbang/mapModule.git"
-  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "zhoujianbang" => "zhoujianbang@meicai.cn" }
   
