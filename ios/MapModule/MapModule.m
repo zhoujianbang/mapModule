@@ -10,12 +10,20 @@
 
 @implementation MapModule
 
-RCT_EXPORT_MODULE();
-
-RCT_EXPORT_METHOD(testPrint:(NSString *)name info:(NSDictionary *)info) {
-    NSLog(@"%@: %@", name, info);
-}
-RCT_EXPORT_METHOD(ceshi) {
-    NSLog(@"测试");
+//RCT_EXPORT_MODULE();
+//
+//RCT_EXPORT_METHOD(testPrint:(NSString *)name info:(NSDictionary *)info) {
+//    NSLog(@"%@: %@", name, info);
+//}
+//RCT_EXPORT_METHOD(ceshi) {
+//    NSLog(@"测试");
+//}
+-(id)init
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
 }
 @end

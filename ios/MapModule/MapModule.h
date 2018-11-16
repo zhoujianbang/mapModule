@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <React/RCTBridgeModule.h>
 
-@interface MapModule : NSObject<RCTBridgeModule>
+@interface MapModule : NSObject
 
 @end
