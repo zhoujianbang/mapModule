@@ -21,8 +21,6 @@
 		155DE780219BFF5200482C1B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155DE77F219BFF5100482C1B /* OpenGLES.framework */; };
 		155DE782219BFF5D00482C1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155DE781219BFF5D00482C1B /* CoreGraphics.framework */; };
 		157B9FA8219C2E790094FBF8 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 157B9FA7219C2E780094FBF8 /* libstdc++.6.0.9.tbd */; };
-		157B9FAB219C307D0094FBF8 /* EmiterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 155DE79F219C09B600482C1B /* EmiterModule.m */; };
-		157B9FAC219C307D0094FBF8 /* LocationMoudule.m in Sources */ = {isa = PBXBuildFile; fileRef = 155DE7A2219C14D000482C1B /* LocationMoudule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,10 +51,6 @@
 		155DE77D219BFF4B00482C1B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		155DE77F219BFF5100482C1B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		155DE781219BFF5D00482C1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		155DE79E219C09B600482C1B /* EmiterModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmiterModule.h; sourceTree = "<group>"; };
-		155DE79F219C09B600482C1B /* EmiterModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmiterModule.m; sourceTree = "<group>"; };
-		155DE7A1219C14D000482C1B /* LocationMoudule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationMoudule.h; sourceTree = "<group>"; };
-		155DE7A2219C14D000482C1B /* LocationMoudule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationMoudule.m; sourceTree = "<group>"; };
 		157B9FA7219C2E780094FBF8 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -106,10 +100,6 @@
 			children = (
 				155DE6C7219BD04900482C1B /* MapModule.h */,
 				155DE6C8219BD04900482C1B /* MapModule.m */,
-				155DE79E219C09B600482C1B /* EmiterModule.h */,
-				155DE79F219C09B600482C1B /* EmiterModule.m */,
-				155DE7A1219C14D000482C1B /* LocationMoudule.h */,
-				155DE7A2219C14D000482C1B /* LocationMoudule.m */,
 			);
 			path = MapModule;
 			sourceTree = "<group>";
@@ -196,8 +186,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				157B9FAB219C307D0094FBF8 /* EmiterModule.m in Sources */,
-				157B9FAC219C307D0094FBF8 /* LocationMoudule.m in Sources */,
 				155DE6C9219BD04900482C1B /* MapModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
